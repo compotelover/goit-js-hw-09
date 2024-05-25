@@ -38,3 +38,8 @@
 .gallery-image:hover {
   transform: scale(1.0444, 1.04);
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
