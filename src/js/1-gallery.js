@@ -66,8 +66,6 @@ const images = [
 
 const gallery = document.querySelector('.gallery');
 
-gallery.addEventListener("click", (event) => event.preventDefault())
-
 const addMarkup = images.map(({ preview, original, description }) => {
     return `
 <li class="gallery-item">
